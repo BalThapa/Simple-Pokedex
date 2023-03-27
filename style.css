@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(logos/medow.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    font-family: 'Alkatra', cursive;
+    font-size: xx-large;
+    color: rgb(255, 217, 0);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.Icons {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.Icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0.1px;
+    border-radius: 4rem;
+}
+.Icons button{
+    margin: 0;
+    padding: 1px;
+    border-radius: 4rem;
+}
+
+img {
+   
+    width: 15vw;
+    margin: 1rem 2rem;
+}
+
+.card {
+    width: 25vw;
+    margin: 1rem;
+    margin-right: 1rem;
+    border-color: red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+img:hover {
+    animation: shake 0.5s linear infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-6deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-6deg);
+    }
+}
+
+#generation {
+    display: flex;
+    justify-content: center;
+}
+
+#generation button {
+    font-family: 'Lobster Two';
+    font-size: large;
+    margin: 5px;
+    padding: 2px;
+    background-color: rgb(249, 131, 88);
+    border-radius: 5px;
+    justify-content: center;
+}
+
+
+.find {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    font-family: 'Lobster Two';
+    font-size: x-large;   
+}
+
+.find button{
+    background-color: rgb(249, 131, 88);
+    border-radius: 5px;
+    padding: 2px; 
+}
+
+#pokeName {
+    margin-left: 5px;
+ }
+
+#nameInput{
+    border-radius: 5px;
+    height: 2.5rem; 
+    margin-top: 0.9rem;
+    font-size: large;
+}
+
+h2 {
+    margin: 0 2rem;
+    background-color: rgb(209, 106, 253);
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 1rem ;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    background-color: rgb(33, 80, 248);
+    border: none;
+    border-radius: 5px;
+    justify-content: flex-end;
+    align-items: center;
+   
+
+}
+.bug {
+    background-color: brown;
+}
+
+.dragon{
+    background-color: gray;
+}
+
+.dark{
+    background-color: black;
+}
+
+.fire{
+    background-color: rgb(247, 115, 6);
+}
+
+.fairy{
+    background-color: aliceblue;
+}
+
+.fighting{
+    background-color: darkorange;
+}
+
+.electric{
+    background-color: deepskyblue;
+}
+
+.flying{
+    background-color: cyan;
+}
+
+.ground{
+    background-color: coral;
+}
+
+.ghost{
+    background-color: whitesmoke;
+}
+
+.grass{
+    background-color: rgb(36, 228, 36);
+}
+
+.psychic{
+    background-color: blueviolet;
+}
+
+.poison{
+    background-color: rgb(77, 62, 62);
+}
+
+.normal{
+    background-color: navajowhite ;
+}
+
+.ice {
+    background-color: rgb(185, 185, 214);
+}
+
+.rock{
+    background-color: rgb(109, 92, 92);
+}
+
+.water{
+    background-color: skyblue;
+}
+
+.steel{
+    background-color: steelblue;
+}
+
+
+
+
+
